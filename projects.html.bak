@@ -86,6 +86,15 @@
    <p>Secured Trustyworthy Industrial Internet of Things, 2020-2021</p>
   </li>
 </ol>
+<h3><strong>[Machine Learning Systems]</strong></h2>
+<ol>
+  <li>
+    <p>Communication Optimization Theory and Practice in Distributed Machine Learning Systems, 2020-2021</p>
+  </li>
+    <li>
+    <p>Communication Optimization in Distributed Machine Learning Systems, 2020-2021</p>
+  </li>
+</ol>
 <h3><strong>[Intelligent Networking]</strong></h2>
 <ol>
   <li>
@@ -115,9 +124,6 @@
 <h3><strong>[Programmable Networks: SDN/NFV]</strong></h2>
 <ol>
   <li>
-    <p>Guaranteeing the Timeliness of Network Policies Installation in Software Defined Networks, 2020-2021</p>
-  </li>
-     <li>
     <p>Openflow-enabled Queue Scheduling for Multi-tenancy Scenarios in Access Network, 2020-2021</p>
   </li>
     </li>
@@ -139,6 +145,9 @@
   </li>
    <li>
     <p>SDN-Based Network Architecture For Computation Offloading And Service Augmentation, 2020-2021</p>
+  </li>
+    <li>
+    <p>Guaranteeing the Timeliness of Network Policies Installation in Software Defined Networks, 2020-2021</p>
   </li>
  </ol>
 
