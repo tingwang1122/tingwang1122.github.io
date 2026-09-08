@@ -41,33 +41,38 @@
           </nav>
         </div>
       </header>
-      <script>
-          function myFunction() {
-            var x = document.getElementById("menu");
-            if (x.style.display === "none") {
-              x.style.display = "block";
-            } else {
-              x.style.display = "none";
-            }
-          }
 
-          if($(window).width() <= 600) {
-            var last_known_scroll_position = 0;
-            var menu = document.getElementById("menu");
-            window.addEventListener('scroll', function(e) {
-              if (Math.abs(window.scrollY - last_known_scroll_position) > 20) {
-                if(menu.style.display = "block") {
-                  menu.style.display = "none";
-                }
-              }
-              last_known_scroll_position = window.scrollY;
-            });
-          }
+		<script>
+			function myFunction() {
+				var x = document.getElementById("menu");
 
-          window.onorientationchange = function() { 
-            window.location.reload(); 
-          };
-      </script>
+				if (x.style.display === "none") {
+					x.style.display = "block";
+				} else {
+					x.style.display = "none";
+				}
+			}
+
+			if (window.innerWidth <= 600) {
+				var last_known_scroll_position = 0;
+				var menu = document.getElementById("menu");
+
+				window.addEventListener("scroll", function() {
+					if (Math.abs(window.scrollY - last_known_scroll_position) > 20) {
+						if (menu) {
+							menu.style.display = "none";
+						}
+					}
+
+					last_known_scroll_position = window.scrollY;
+				});
+			}
+
+			window.onorientationchange = function() {
+				window.location.reload();
+			};
+		</script>
+
       <div style="clear: both;"></div>
       <section>
 	 
@@ -109,12 +114,16 @@
 					<td  style="text-align:center;"><img src="images/PhD/honggangyuan.jpg" alt="Image" width="120"> <br /></td>
 					<td  style="text-align:center;"><img src="images/PhD/qijiexiong.jpg" alt="Image" width="120"> <br /></td>
 					<td	 style="text-align:center;"><img src="images/PhD/zhusilei.jpg" alt="Image" width="120"> <br /></td>
+					<td	 style="text-align:center;"><img  src="" width="120"> <br /></td>
+					<td	 style="text-align:center;"><img  src="" width="120"> <br /></td>
 				  </tr>
 				  <tr>
 					<td  style="text-align:center;"><p><span style="line-height:0.5;">Peng Yang<br />(2023-)</span></p> </td>
 					<td  style="text-align:center;"><p><span style="line-height:0.5;">Honggang Yuan<br />(2025-)</span></p> </td>
 					<td  style="text-align:center;"><p><span style="line-height:0.5;">Qijie Xiong<br />(2026-)</span></p> </td>
 					<td  style="text-align:center;"><p><span style="line-height:0.5;">Silei Zhu<br />(2026-)</span></p> </td>
+					<td  style="text-align:center;"><p><span style="line-height:0.5;"><br /></span></p> </td>
+					<td  style="text-align:center;"><p><span style="line-height:0.5;"><br /></span></p> </td>
 				  </tr>
 				  </tbody>
 				</table>
